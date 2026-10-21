@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# SQLite database (created automatically on first run)
+hospital.db
+*.db-journal
+
+# Streamlit secrets (keep config.toml tracked)
+.streamlit/secrets.toml
+
+# Environment files
+.env
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
